@@ -1,4 +1,4 @@
-'''Check if 3 numbers are queal'''
+'''Check if 3 numbers are equal'''
 
 ls = []
 
