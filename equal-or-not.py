@@ -3,8 +3,8 @@
 ls = []
 
 for i in range(3):
-    number = input("Enter a number: ")
-    ls.append(number)
+    i = input("Enter a number: ")
+    ls.append(i)
 
 if ls[0] == ls[1] == ls[2]:
     print("Equal")
