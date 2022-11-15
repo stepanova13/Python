@@ -1,6 +1,6 @@
 
 language = input("French or Bulgarian? ").lower()
-word = input("word: ").word.lower()
+word = input("word: ").lower()
 
 english_to_french_dictionary = {
     "green" : "verte",
