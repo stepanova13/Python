@@ -1,4 +1,5 @@
-''' Ask for username and password and check if they are correct '''
+''' Ask for username and password and check if they are correct. 
+    User has 5 tries. After fifth try print "Account locked" '''
 
 database = [{"username" : "Mike", "password" : "Mike123$"},
             {"username" : "Joe", "password" : "Joseph^pass17"},
