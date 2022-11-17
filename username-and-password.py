@@ -30,8 +30,3 @@ while enter_username != username or enter_password != password:
     elif n == 0 and access_granted == False:
         print("Account locked")
         break
-
-
-
-
-
