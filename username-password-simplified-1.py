@@ -21,12 +21,12 @@ while n < 5:
     username = input("username: ")
     password = input("password: ")
     if username in database["credentials"] and password in database["credentials"][username]:
-        print("Access granted.")
+        print("\n$$$$$ ACCESS GRANTED $$$$$\n")
         break
     elif n < 5:
-        print("Incorrect. Try again.")
+        print("\n   Incorrect. Try again\n")
     else:
-        print("Account locked.")
+        print("\n------- Account locked ------\n")
 
 
 
