@@ -18,7 +18,7 @@ while n != 0:
     password = input("password: ")
     n -= 1
     if username in database and database[username] == password:
-        print("Access granted.")
+        print("\n$$$$$ ACCESS GRANTED $$$$$\n")
         break
     elif n > 0:
         print("Incorrect. Try again.")
