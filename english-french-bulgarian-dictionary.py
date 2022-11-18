@@ -4,17 +4,20 @@
 # create dictionary
 dictionary = {
         "english to french" :
-        {"green" : "verte",
-        "worm" : "ver",
-        "glass" : "verre",
-        "unripe" : "vert",
-        "prune" : "prune"},
-
+        {
+            "green" : "verte",
+            "worm" : "ver",
+            "glass" : "verre",
+            "unripe" : "vert",
+            "prune" : "prune"
+        },
         "english to bulgarian" :
-        {"hi" : "здравей",
-        "car" : "кола",
-        "house" : "къща",
-        "prune" : "слива"}
+        {
+            "hi" : "здравей",
+            "car" : "кола",
+            "house" : "къща",
+            "prune" : "слива"
+        }
     }
 
 # assign variables
