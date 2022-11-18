@@ -1,4 +1,4 @@
-""" Ask user for username and password 5 times. After the fifth time, lock account. """
+""" Ask user for username and password 5 times. After the fifth time lock account. """
 
 # create database
 database = {
