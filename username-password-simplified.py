@@ -16,12 +16,12 @@ password = ''
 while n != 0:
     username = input("username: ")
     password = input("password: ")
-    n -= 1
     if username in database and database[username] == password:
         print("Access granted.")
         break
-    elif username not in database or database[username] != password:
-        if n > 0:
-            print("Try again.")
-        else:
-            print("Account locked.")
+    elif n > 1:
+        print("Incorrect. Try again.")
+        n -= 1
+    else:
+        print("Account locked.")
+        break
