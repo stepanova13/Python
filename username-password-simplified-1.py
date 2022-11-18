@@ -4,10 +4,15 @@
 database = {
     "credentials":
     {
-        "username0" : "password0",
-        "username1" : "password1",
-        "username2" : "password2"
-    }
+        "John101" : "dj1005$jd",
+        "Anna222" : "stinm94563%443",
+        "Peter404" : "pjpassword500"
+    },
+
+    "employees":
+        [{"firstName" : "John", "lastName" : "Doe"},
+        {"firstName" : "Anna", "lastName" : "Smith"}, 
+        {"firstName" : "Peter", "lastName" : "Jones"}],
 }
 
 # assign variables
