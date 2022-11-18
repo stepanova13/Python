@@ -24,9 +24,9 @@ while n < 5:
         print("\n$$$$$ ACCESS GRANTED $$$$$\n")
         break
     elif n < 5:
-        print("\n   Incorrect. Try again\n")
+        print("Incorrect. Try again")
     else:
-        print("\n------- Account locked ------\n")
+        print("Account locked")
 
 
 
