@@ -14,7 +14,6 @@ dictionary = {
             "potato" :"pomme de terre",
             "prune" : "prune",
         },
-
         "english to bulgarian" :
         {
             "hi" : "здравей",

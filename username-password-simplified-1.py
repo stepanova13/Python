@@ -8,7 +8,6 @@ database = {
         "Anna222" : "stinm94563%443",
         "Peter404" : "pjpassword500"
     },
-
     "employees":
         [{"firstName" : "John", "lastName" : "Doe"},
         {"firstName" : "Anna", "lastName" : "Smith"}, 
