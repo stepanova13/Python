@@ -31,8 +31,8 @@ dictionary = {
 language = input("French or Bulgarian? ").lower()     # ask user which language they want and turn it lowercase
 word = input("word: ").lower()    # ask user what word they want to translate and turn it lowercase
                     
-french = dictionary["english to french"].get(word)              # simplify dictionary search
-bulgarian = dictionary["english to bulgarian"].get(word)
+french = dictionary["english to french"].get(word)              # translate the word in the French dictionary
+bulgarian = dictionary["english to bulgarian"].get(word)        # translate the word in the Bulgarian dictionary
 
 # If the language is not French or Bulgarian, print "Invalid input"
 if language != "french" and language != "bulgarian":  
