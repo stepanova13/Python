@@ -37,9 +37,9 @@ bulgarian = dictionary["english to bulgarian"].get(word)        # translate the 
 # If the language is not French or Bulgarian, print "Invalid input"
 if language != "french" and language != "bulgarian":  
     print("Invalid input")
-elif language == "french":     # if language is French or Bulgarian and the word is in the dictionary, fetch the translated word from the dictionary
+elif language == "french" and word in dictionary:     # if language is French or Bulgarian and the word is in the dictionary, fetch the translated word from the dictionary
     print(french)
-elif language == "bulgarian":
+elif language == "bulgarian" and word in dictionary:
     print(bulgarian)
 else:                                            # if word does not exist in the dictionary, print "word not in my memory"
     print(f"{word} is not in my memory")
