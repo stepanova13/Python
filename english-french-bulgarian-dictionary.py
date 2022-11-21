@@ -31,15 +31,15 @@ dictionary = {
 language = input("French or Bulgarian? ").lower()     # ask user which language they want and turn it lowercase
 word = input("word: ").lower()    # ask user what word they want to translate and turn it lowercase
                     
-french = dictionary["english to french"]              # simplify dictionary search
-bulgarian = dictionary["english to bulgarian"]
+french = dictionary["english to french"].get(word)              # simplify dictionary search
+bulgarian = dictionary["english to bulgarian"].get(word)
 
 # If the language is not French or Bulgarian, print "Invalid input"
 if language != "french" and language != "bulgarian":  
     print("Invalid input")
-elif language == "french" and word in french:     # if language is French or Bulgarian and the word is in the dictionary, fetch the translated word from the dictionary
-    print(french.get(word))
-elif language == "bulgarian" and word in bulgarian:
-    print(bulgarian.get(word))
+elif language == "french":     # if language is French or Bulgarian and the word is in the dictionary, fetch the translated word from the dictionary
+    print(french)
+elif language == "bulgarian":
+    print(bulgarian)
 else:                                            # if word does not exist in the dictionary, print "word not in my memory"
     print(f"{word} is not in my memory")
