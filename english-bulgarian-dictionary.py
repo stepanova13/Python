@@ -23,7 +23,7 @@ def bulgarian(word):
     else:                                
         print(f"{word_to_translate} is not in my memory")
 
-# define a global vaeriable
+# define a global vaeriable for the while loop
 word_to_translate = ''
 
 while True:
