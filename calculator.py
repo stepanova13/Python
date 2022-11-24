@@ -24,13 +24,13 @@ def integer_division(a, b):
 
 # display on the screen
 print("\nThis calculator provides the following operations: \n")
-print("1. ** Exponention")
-print("2. * Muliplication")
-print("3. / Dividion")
-print("4. + Addition")
-print("5. - Subtraction")
-print("6. % Modulo")
-print("7. // Integer division\n")
+print(" ** Exponention")
+print(" * Muliplication")
+print(" / Dividion")
+print(" + Addition")
+print(" - Subtraction")
+print(" % Modulo")
+print(" // Integer division\n")
 
 # make a list with the possible operations
 operations = ['**','*','/','+','-','%','//']
@@ -59,7 +59,7 @@ while True:
             print(modulo(n0, n1))
         elif select == '//':
             print(integer_division(n0, n1))
-            
+
         # ask user if they want to do another calculation
         another = input("Another calculation? / NO-type 'n', YES - press enter\n").lower()
         if another == 'n':
