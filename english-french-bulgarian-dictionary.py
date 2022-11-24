@@ -41,5 +41,5 @@ elif language == "french" and word in dictionary:     # if language is French or
     print(french)
 elif language == "bulgarian" and word in dictionary:
     print(bulgarian)
-else:                                            # if word does not exist in the dictionary, print "word not in my memory"
+else:                                            # if word does not exist in the dictionary, print " 'word' not in my memory"
     print(f"{word} is not in my memory")
