@@ -1,24 +1,24 @@
 ''' Create a calculator '''
 
-# function that exponentiates two numbers
+# define a function that exponentiates two numbers
 def exponentiate(a, b):
     return a ** b
-# function that multiplies two numbers
+# define a function that multiplies two numbers
 def multiply(a, b):
     return a * b
-# function that divides two numbers
+# define a function that divides two numbers
 def divide(a, b):
     return a / b
-# function that adds two numbers
+# define a function that adds two numbers
 def add(a, b):
     return a + b
-# function that subtracts two numbers
+# define a function that subtracts two numbers
 def subtract(a, b):
     return a - b
-# function that shows the modulo of two numbers
+# define a function that shows the modulo of two numbers
 def modulo(a, b):
     return a % b
-# function that shows the integer division of two numbers
+# define a function that shows the integer division of two numbers
 def integer_division(a, b):
     return a // b
 
@@ -39,6 +39,7 @@ while True:
     # ask user what operation they want to perform
     select = input("Select operation **, *, /, +, -, %, //\n")
     # chack if the operation user selected is in the possible operations
+    # if the operation is in the list of possible operations
     if select in operations:
         # ask user for two numbers
         n0 = float(input("Enter a number/can be integer or floating point/: "))
@@ -62,7 +63,7 @@ while True:
         another = input("Another calculation? / NO-type 'n', YES - press enter\n").lower()
         if another == 'n':
             break
-    # if the operation user selected is NOT in the possible operations
+    # if the operation user selected is NOT in the list of possible operations
     else:
         print("Invalid input.")
 print("Thank you!")

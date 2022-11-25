@@ -5,7 +5,7 @@ def even_or_odd_number(n):
     if n % 2 == 0:
         print(n," is an EVEN number")
     else:
-        print(n, " is an ODD number")
+        print(n," is an ODD number")
 
 while True:  
 # input returns string, so we cast it into integer with int() function, so that we can compare it with another integer 

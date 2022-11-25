@@ -17,7 +17,9 @@ dictionary = {
 
 # define finction to translate a word
 def bulgarian(word):
+    # if the word is in the dictionary
     if word in dictionary:
+        # translate the word and display it on the screen
         print(dictionary.get(word))
     # if word does not exist in the dictionary, print " 'word' not in my memory"
     else:                                
