@@ -7,7 +7,7 @@ database = {
     "username2" : "password2",
 }
 
-# initialize variable for the number of tries
+# initializing the variable for the number of tries
 n = 5
 
 # use while loop to keep asking until the credentials are correct or user runs out of tries( 5 tries)
