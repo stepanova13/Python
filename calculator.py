@@ -34,8 +34,6 @@ print(" // Integer division\n")
 
 # make a list with the possible operations
 operations = ['**','*','/','+','-','%','//']
-# define variable select
-select = ''
 
 while True:
     # ask user what operation they want to perform

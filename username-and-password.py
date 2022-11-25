@@ -8,7 +8,7 @@ database = [{"username" : "Mike", "password" : "Mike123$"},
             {"username" : "May", "password" : "pas#4532H"}
             ]
 
-# assign variables
+# initialize variables
 username = ' '
 password = ' '
 # ask user for username and password

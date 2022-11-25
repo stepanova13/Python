@@ -23,9 +23,7 @@ def bulgarian(word):
     else:                                
         print(f"{word_to_translate} is not in my memory")
 
-# define a global vaeriable for the while loop
-word_to_translate = ''
-
+# create a while loop
 while True:
     # ask user what word they want to translate and turn it lowercase
     word_to_translate = input("Type a word to translate: ").lower()
