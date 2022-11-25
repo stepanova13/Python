@@ -65,4 +65,4 @@ while True:
     # if the operation user selected is NOT in the possible operations
     else:
         print("Invalid input.")
-print("Thank you! :)")
+print("Thank you!")
