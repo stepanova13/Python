@@ -15,8 +15,8 @@ while True:
     # if number is less than 0 or greater than 100, print "Invalid input"
     if number < 0 or number > 100:
         print("Invalid input")
+    # if number between 1 and 100, call even_or_odd_number function
     else:
-        # if number between 1 and 100, call even_or_odd_number function
         even_or_odd_number(number)
     # ask user if they want to do another number and make the input lowercase
     another = input("Another number? / NO-type 'n', YES - press enter\n").lower()
