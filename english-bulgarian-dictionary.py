@@ -33,6 +33,7 @@ while True:
     bulgarian(word_to_translate)
     # ask user if they want to translate another word
     another = input("Another? / NO-type 'n', YES - press enter\n").lower()
+    # if answer is no, break out of the whole loop
     if another == 'n':
         break
 

@@ -1,6 +1,6 @@
 ''' Check if a number is even or odd '''
 
-# defing the function
+# defing function even_or_odd_number that checks if a number is even or odd and displays it on the screen
 def even_or_odd_number(n):
     if n % 2 == 0:
         print(n," is an EVEN number")
@@ -16,6 +16,9 @@ while True:
     else:
         # if number between 1 and 100, call even_or_odd_number function
         even_or_odd_number(number)
+    # ask user if they want to do another number and make the input lowercase
     another = input("Another number? / NO-type 'n', YES - press enter\n").lower()
+    # if answer is no
     if another == 'n':
+        # break out if the while loop
         break
