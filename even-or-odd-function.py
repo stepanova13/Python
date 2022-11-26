@@ -7,8 +7,10 @@ def even_or_odd_number(n):
     else:
         print(n," is an ODD number")
 
+# make a while loop
 while True:  
-# input returns string, so we cast it into integer with int() function, so that we can compare it with another integer 
+    # ask user to enter a number between 1 and 100
+    # intrinsic fulction 'input' returns string, so we cast it into integer with int() function, so that we can compare it with another integer 
     number = int(input("Please enter a number between 1-100: \n"))
     # if number is less than 0 or greater than 100, print "Invalid input"
     if number < 0 or number > 100:
