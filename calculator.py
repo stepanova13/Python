@@ -15,10 +15,10 @@ def add(a, b):
 # define a function that subtracts two numbers
 def subtract(a, b):
     return a - b
-# define a function that shows the modulo of two numbers
+# define a function that returns the modulo of two numbers
 def modulo(a, b):
     return a % b
-# define a function that shows the integer division of two numbers
+# define a function that returns the integer division of two numbers
 def integer_division(a, b):
     return a // b
 
