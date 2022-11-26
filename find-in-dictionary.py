@@ -9,4 +9,7 @@ d = {
             {"firstName": "Jessy", "lastName": "Petter"}]
     }
 
+# from dictionary 'd' select 'emplyees' which is a list of dictionaries
+# select the second element - {"firstName" : "Anna", "lastName" : "Smith"}, it has index 1
+# select the key 'lastName'
 print(d["employees"][1]['lastName'])
