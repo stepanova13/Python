@@ -7,5 +7,5 @@ amazon_resource_name = "arn:aws:iam::123456789012:user/Development/product_1234*
 # OUTPUT ----> ['arn', 'aws', 'iam', '', '123456789012', 'user/Development/product_1234*']
 # and take the value of the element with index 4 from the list - '123456789012' - that is the Account ID
 account_id = amazon_resource_name.split(':')[4]
-# display on the screen 
+# display it on the screen 
 print(f"The AWS Account ID is: {account_id}")
