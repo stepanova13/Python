@@ -65,7 +65,7 @@ while True:
         # if answer is no, break out of the whole loop
         if another == 'n':
             break
-    # if the operation user selected is NOT in the list of possible operations
+    # if the operation user selected is NOT in the list of possible operations print "Invalid input."
     else:
         print("Invalid input.")
 # when out of the while loop, print "Thank you!"
