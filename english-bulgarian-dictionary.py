@@ -31,7 +31,7 @@ while True:
     word_to_translate = input("Type a word to translate: ").lower()
     # call the function to translate the word from the user input
     bulgarian(word_to_translate)
-    # ask user if they want to translate another word
+    # ask user if they want to translate another word and turn it lowercase
     another = input("Another? / NO-type 'n', YES - press enter\n").lower()
     # if answer is no, break out of the whole loop
     if another == 'n':
