@@ -28,5 +28,5 @@ response = my_s3_client.create_bucket(
     },
 )
 
-# # display the output
+# display the output
 print(response)
