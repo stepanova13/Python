@@ -14,7 +14,6 @@ def generate_random_bucket_name(y):
     str: returns a string of ascii letters joined with delimiter
 
     """
-  
     return '-'.join((random.choice(string.ascii_lowercase) for x in range(y)))
 
 # call s3 client
