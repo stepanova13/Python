@@ -1,4 +1,6 @@
-''' Create a calculator '''
+''' 
+calculator.py: create a calculator
+'''
 
 # define a function that exponentiates two numbers
 def exponentiate(a, b):
@@ -68,5 +70,6 @@ while True:
     # if the operation user selected is NOT in the list of possible operations print "Invalid input."
     else:
         print("Invalid input.")
+
 # when out of the while loop, print "Thank you!"
-print("Thank you!")
+print("Thank you for using our calculator!")
