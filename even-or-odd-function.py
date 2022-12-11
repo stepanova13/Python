@@ -1,11 +1,18 @@
-''' Check if a number is even or odd '''
+''' 
+even-or-odd-function: check if a number is even or odd 
+'''
 
 # defing function even_or_odd_number that checks if a number is even or odd and displays it on the screen
 def even_or_odd_number(n):
+    '''
+    this function dispays if a number is even or odd
+    args: n(int)
+    '''
     if n % 2 == 0:
         print(n," is an EVEN number")
     else:
         print(n," is an ODD number")
+
 
 # make a while loop
 while True:  
