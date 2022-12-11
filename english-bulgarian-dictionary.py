@@ -1,5 +1,6 @@
-''' Writing a program that translates words from English to Bulgarian.
-    Using function for translation. '''
+'''
+english-bulgarian-dictionary.py: translates words from English to Bulgarian
+'''
 
 # create the dictionary database
 dictionary = {
@@ -24,6 +25,7 @@ def bulgarian(word):
     # if word does not exist in the dictionary, print " 'word' not in my memory"
     else:                                
         print(f"{word_to_translate} is not in my memory")
+
 
 # create a while loop
 while True:
