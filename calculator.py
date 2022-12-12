@@ -39,7 +39,6 @@ if __name__ == '__main__':
     # make a list with the possible operations
     operations = ['**','*','/','+','-','%','//']
 
-
     while True:
         # ask user what operation they want to perform
         select = input("Select operation **, *, /, +, -, %, //\n")
@@ -71,11 +70,12 @@ if __name__ == '__main__':
                 # if answer is no, break out of the whole loop
                 if another == 'n':
                     break
-                # if the operation user selected is NOT in the list of possible operations print "Invalid input."
+            # handle exceptions  
             except ZeroDivisionError:
                 print("Division by zero is not supported.")
             except ValueError:
                 print("Please enter a valid number.")
+        # if the operation user selected is NOT in the list of possible operations print "Invalid input."
         else:
                 print("Invalid input.")
             
