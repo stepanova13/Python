@@ -4,24 +4,59 @@ calculator.py: create a calculator
 
 # define a function that exponentiates two numbers
 def exponentiate(a, b):
+    '''
+    this function exponents two nembers
+    args: a(float), b(float)
+    return: float
+    '''
     return a ** b
 # define a function that multiplies two numbers
 def multiply(a, b):
+    '''
+    this function multiplies two nembers
+    args: a(float), b(float)
+    return: float
+    '''
     return a * b
 # define a function that divides two numbers
 def divide(a, b):
+    '''
+    this function divides two nembers
+    args: a(float), b(float)
+    return: float
+    '''
     return a / b
 # define a function that adds two numbers
 def add(a, b):
+    '''
+    this function adds two nembers
+    args: a(float), b(float)
+    return: float
+    '''
     return a + b
 # define a function that subtracts two numbers
 def subtract(a, b):
+    '''
+    this function subtracts two nembers
+    args: a(float), b(float)
+    return: float
+    '''
     return a - b
 # define a function that returns the modulo of two numbers
 def modulo(a, b):
+    '''
+    this function returns the modulo of two nembers
+    args: a(float), b(float)
+    return: float
+    '''
     return a % b
 # define a function that returns the integer division of two numbers
 def integer_division(a, b):
+    '''
+    this function returns the integer division of two nembers
+    args: a(float), b(float)
+    return: float
+    '''
     return a // b
 
 #body of the main
@@ -82,4 +117,3 @@ if __name__ == '__main__':
     # when out of the while loop, print "Thank you!"
     print("Thank you for using our calculator!")
 
-    
