@@ -1,5 +1,6 @@
 ''' 
 sales.py: this code returns the total sum a client owes in a supermarcet in a receipt file
+
 Created By  : stepanova13
 '''
 
