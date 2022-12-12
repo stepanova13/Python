@@ -1,5 +1,7 @@
 ''' 
 even-or-odd-function: check if a number is even or odd 
+
+Created By  : stepanova13
 '''
 
 # defing function even_or_odd_number that checks if a number is even or odd and displays it on the screen

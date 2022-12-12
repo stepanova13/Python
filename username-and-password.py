@@ -1,5 +1,9 @@
-''' Ask for username and password and check if they are correct. 
-    User has 5 tries. After fifth try print "Account locked" '''
+''' 
+This program asks for username and password and check if they are correct. 
+User has 5 tries. After fifth try print "Account locked" 
+
+Created By  : stepanova13
+'''
 
 # create database
 database = [{"username" : "Mike", "password" : "Mike123$"},

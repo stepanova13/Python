@@ -1,4 +1,9 @@
-""" Ask user for username and password 5 times. After the fifth time lock account. """
+""" 
+This program asks for username and password and check if they are correct. 
+User has 5 tries. After fifth try print "Account locked" 
+
+Created By  : stepanova13
+"""
 
 # create database
 database = {

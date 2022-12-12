@@ -1,5 +1,7 @@
 ''' 
 calculator.py: create a calculator
+
+Created By  : stepanova13
 '''
 
 # define a function that exponentiates two numbers
@@ -101,7 +103,7 @@ if __name__ == '__main__':
                     print(integer_division(n0, n1))
 
                 # ask user if they want to do another calculation
-                another = input("Another calculation? / NO-type 'n', YES - press enter\n").lower()
+                another = input("Another calculation? / NO -type 'n', YES - press enter\n").lower()
                 # if answer is no, break out of the whole loop
                 if another == 'n':
                     break
@@ -110,9 +112,11 @@ if __name__ == '__main__':
                 print("Division by zero is not supported.")
             except ValueError:
                 print("Please enter a valid number.")
+            except Exception as error:
+                print(f"There is an error: {error}")
         # if the operation user selected is NOT in the list of possible operations print "Invalid input."
         else:
-                print("Invalid input.")
+            print("Invalid input.")
             
     # when out of the while loop, print "Thank you!"
     print("Thank you for using our calculator!")
