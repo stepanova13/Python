@@ -1,4 +1,8 @@
-''' Get Max and Min values '''
+''' 
+Get Max and Min values 
+
+Created By  : stepanova13
+'''
 
 list_of_numbers = []
 numbers_count = int(input("How many numbers do you want to compare? "))

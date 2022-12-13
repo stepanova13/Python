@@ -1,4 +1,8 @@
-''' Tell if a number is positive, negative or zero '''
+''' 
+Tell if a number is positive, negative or zero 
+
+Created By  : stepanova13
+'''
  
 number = int(input("enter a number: "))
 

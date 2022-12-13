@@ -1,4 +1,8 @@
-''' Fun program that asks user to type a word, and displays the reversed word '''
+''' 
+Fun program that asks user to type a word, and displays the reversed word 
+
+Created By  : stepanova13
+'''
 
 
 word = input("Wnter a word: ")

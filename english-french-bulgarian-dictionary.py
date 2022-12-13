@@ -1,5 +1,9 @@
 
-''' Writing a program that translates words from English to French or from English to Bulgarian '''
+''' 
+This program translates words from English to French or from English to Bulgarian 
+
+Created By  : stepanova13
+'''
 
 # create dictionary
 dictionary = {

@@ -1,4 +1,6 @@
-'''Check if 3 numbers are equal'''
+'''
+Check if 3 numbers are equal
+'''
 
 # initiate a variable list
 ls = []
