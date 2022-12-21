@@ -5,6 +5,10 @@ boto3-s3-bucket.py: creates s3 bucket with unique name
 import boto3
 import random
 import string
+import logging
+
+logging.basicConfig(filename='Python\\boto3-s3-bucket.log', filemode='w', level=logging.INFO)
+logger = logging.getLogger()
 
 def generate_random_bucket_name(prefix):
     """ 
@@ -42,8 +46,8 @@ if __name__ == '__main__':
 
     # handle exceptions
     except ModuleNotFoundError:
-        print("A module could not be located. Please verify your imported modules.")
+        logger.error("A module could not be located. Please verify your imported modules.")
     except ImportError:
-        print("The import statement has troubles trying to load a module or the “from list” in from ... import has a name that cannot be found.\nPlease check your imported modules.")
+        logger.error("The import statement has troubles trying to load a module or the “from list” in from ... import has a name that cannot be found.\nPlease check your imported modules.")
     except Exception as error:
-        print(f"There is an error: {error}")
+        logger.error(f"There is an error: {error}")
