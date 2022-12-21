@@ -4,6 +4,11 @@ sales.py: this code returns the total sum a client owes in a supermarcet in a re
 Created By  : stepanova13
 '''
 
+import logging
+
+logging.basicConfig(filename='Python\sales.log', filemode='w', level=logging.INFO)
+logger = logging.getLogger()
+
 # items in an order with prices
 order = {
         'tomato' : 30,
@@ -38,13 +43,13 @@ if __name__ == '__main__':
         
         # handle exceptions
         except TypeError:
-                print("You had a typo.")
+                logger.error("You had a typo.")
         except MemoryError:
-                print("You ran out of memory. Try to delete some objects.")
+                logger.error("You ran out of memory. Try to delete some objects.")
         except KeyError:
-                print("A mapping (dictionary) key is not found in the set of existing keys.")
+                logger.errort("A mapping (dictionary) key is not found in the set of existing keys.")
         except Exception as error:
-                print(f"There is an error: {error}")
+                logger.error(f"There is an error: {error}")
         
 
 

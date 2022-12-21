@@ -3,6 +3,13 @@
  
  Created By  : stepanova13
 '''
+
+import logging
+
+logging.basicConfig(filename='Python\even-numbers-multiplier.log', filemode='w', level=logging.INFO)
+logger = logging.getLogger()
+
+
 # global variable 'Numbers' holds a list of whole numbers
 Numbers = [8, 9, 11, 20, 32, 101, 100]
 
@@ -28,5 +35,5 @@ if __name__ == '__main__':
     
     # handle exceptions 
     except Exception as error:
-        print(f"There is an error: {error}")
+        logger.error(f"There is an error: {error}")
 

@@ -3,6 +3,10 @@ copitor.py: creates a file and a copy of the file
 
 Created By  : stepanova13
 '''
+import logging
+
+logging.basicConfig(filename='Python\copitor.log', filemode='w', level=logging.INFO)
+logger = logging.getLogger()
 
 def write_story():
     ''' 
@@ -40,10 +44,10 @@ if __name__ == '__main__':
 
     # handle exceptions
     except FileNotFoundError:
-        print("This file does not exist. Please make sure the file you are trying to reach exists.")
+        logger.error("This file does not exist. Please make sure the file you are trying to reach exists.")
     except TypeError:
-        print("You had a typo.")
+        logger.error("You had a typo.")
     except MemoryError:
-        print("You ran out of memory. Try to delete some objects")
+        logger.error("You ran out of memory. Try to delete some objects")
     except Exception as error:
-        print(f"There is an error: {error}")
+        logger.error(f"There is an error: {error}")
