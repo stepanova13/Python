@@ -123,15 +123,15 @@ def send_email():
     msg_body.attach(textpart)
 
     # full path to the file that will be attached to the email
-    ATTACHMENT1 = EC2_REPORT_FILE_NAME
+    ATTACHMENT = EC2_REPORT_FILE_NAME
 
     # adding attachment
-    att1 = MIMEApplication(open(ATTACHMENT1, 'rb').read())
-    att1.add_header('Content-Disposition', 'attachment',
-                    filename=os.path.basename(ATTACHMENT1))
+    att = MIMEApplication(open(ATTACHMENT, 'rb').read())
+    att.add_header('Content-Disposition', 'attachment',
+                    filename=os.path.basename(ATTACHMENT))
 
     msg.attach(msg_body)
-    msg.attach(att1)
+    msg.attach(att)
 
     try:
         response = ses_client.send_raw_email(
