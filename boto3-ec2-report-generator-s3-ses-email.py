@@ -146,7 +146,7 @@ def send_email():
                 'Data': msg.as_string(),
             },
         )
-        logger.info(f'Message send successfully. Message id : {response['MessageId']}')
+        logger.info(f"Message send successfully. Message id : {response['MessageId']}")
     except Exception as error:
         logger.error(f'An error occurred: {error}')
         return False
