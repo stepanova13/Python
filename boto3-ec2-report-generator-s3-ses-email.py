@@ -105,7 +105,7 @@ def send_email():
     return: True if message sent, False if error occurs
     '''
 
-    #call SES boto client
+    # call SES boto client
     ses_client = boto3.client('ses')
     
     # define variables
