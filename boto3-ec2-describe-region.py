@@ -1,9 +1,18 @@
 '''
-boto3-ec2-describe-region: this code displays the names of all aws regions for ec2
+boto3-ec2-describe-region.py: 
+
+This code displays the names of all aws regions for ec2.
+Logs events in boto3-ec2-describe-region.log file.
 
 Created By  : stepanova13
 '''
 import boto3
+import logging
+
+
+# setup logger
+logging.basicConfig(filename='Python\\boto3-ec2-describe-region.log', filemode='w', level=logging.INFO)
+logger = logging.getLogger()
 
 # call boto client
 ec2 = boto3.client('ec2')
@@ -22,10 +31,11 @@ def region_name():
     try:
         for element in response['Regions']:
             print(element['RegionName'])
-        return True
     except Exception as error:
-        print(f'There is an error: {error}')
+        logger.error(f'There is an error: {error}')
         return False
+    return True
 
 if __name__ == '__main__':
     region_name()
+    logger.info('Execution successful.')
