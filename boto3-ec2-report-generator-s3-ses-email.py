@@ -1,5 +1,5 @@
 '''
-boto3-ec2-report-generator-s3-sns-email.py: 
+boto3-ec2-report-generator-s3-ses-email.py: 
 
 This code generates an EC2 report with
 Name Tag
@@ -10,7 +10,7 @@ InstanceType.
 Puts the report in a S3 bucket, 
 and sends an email with the report attached.
 
-Logs events is a boto3-ec2-report-generator-s3-sns-email.log file.
+Logs events is a boto3-ec2-report-generator-s3-ses-email.log file.
 '''
 
 import boto3
