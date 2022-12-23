@@ -8,8 +8,7 @@ import boto3
 # call boto client
 ec2 = boto3.client('ec2')
 
-# retrieve all regions
-# that work with ec2
+# retrieve all regions that work with ec2
 response = ec2.describe_regions()
 
 # print(type(response))
