@@ -78,6 +78,7 @@ def generate_excel_report(report):
         logger.error(f'File doesn\'t exist. {error}')
         return False
     return True
+    logger.info('Report {EC2_REPORT_FILE_NAME} was generated successfully')
 
 def upload_report_to_s3():
     '''
@@ -151,12 +152,17 @@ def send_email():
         return False
     return True
 
-if __name__ == '__main__':    
+if __name__ == '__main__':  
+    logger.info(f'List of servers: {list_all_instances()}')
+
     # get the data for the report
     report = list_all_instances()
+
     # create the csv file report
     generate_excel_report(report)
+    
     # upload the report to s3
     upload_report_to_s3()
+
     # send email with report attached
     send_email()
