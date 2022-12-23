@@ -2,7 +2,7 @@
 sales.py: 
 
 This code returns the total sum a client owes in a supermarcet in a receipt file.
-Logs events in sales.log file.
+Logs events in sale.log file.
 
 Created By  : stepanova13
 '''
@@ -43,6 +43,8 @@ if __name__ == '__main__':
         try:
                 # call the function
                 receipt()
+                # log the event
+                logger.info('Receipt was created successfully.')
         
         # handle exceptions
         except TypeError:
