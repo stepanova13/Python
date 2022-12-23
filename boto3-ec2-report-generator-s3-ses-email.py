@@ -109,17 +109,17 @@ def send_email():
     ses_client = boto3.client('ses')
     
     # define variables
-    SENDER = "sender@gmail.com"
-    RECEIVER = "receiver@gmail.com"
-    CHARSET = "utf-8"
+    SENDER = 'sender@gmail.com'
+    RECEIVER = 'receiver@gmail.com'
+    CHARSET = 'utf-8'
     msg = MIMEMultipart('mixed')
-    msg['Subject'] = "EC2 Report"
+    msg['Subject'] = 'EC2 Report'
     msg['From'] = SENDER
     msg['To'] = RECEIVER
 
     msg_body = MIMEMultipart('alternative')
 
-    BODY_TEXT = "Hi BOSS,\n\nPlease find the requested EC2 Report attached.\n\nBest wishes,\nEmployee"
+    BODY_TEXT = 'Hi BOSS,\n\nPlease find the requested EC2 Report attached.\n\nBest wishes,\nEmployee'
 
     textpart = MIMEText(BODY_TEXT.encode(CHARSET), 'plain', CHARSET)
 
@@ -146,7 +146,7 @@ def send_email():
                 'Data': msg.as_string(),
             },
         )
-        logger.info(f"Message send successfully. Message id : {response['MessageId']}")
+        logger.info(f'Message send successfully. Message id : {response['MessageId']}')
     except Exception as error:
         logger.error(f'An error occurred: {error}')
         return False
