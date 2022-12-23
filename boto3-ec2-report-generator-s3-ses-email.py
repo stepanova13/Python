@@ -62,7 +62,7 @@ def generate_excel_report(report):
     '''
     this function creates a csv file 
     args: list
-    return: boolean: True if file created successfully, False if error occures
+    return: boolean: True if file created successfully, False if error occurs
     '''
     # header of the csv file
     header = ['Instance Name', 'Instance ID', 'Image ID', 'Instance Type']
@@ -81,7 +81,7 @@ def upload_report_to_s3():
     '''
     this finction uploads the report csv file to a s3 bucket
     args: None
-    return: boolean: True if bucket created successfully, False if error occures
+    return: boolean: True if bucket created successfully, False if error occurs
     '''
     # assign the bucket name
     bucket_name = 's3-bucket-name'
@@ -99,7 +99,7 @@ def send_email():
     '''
     this function sends an email with attachment
     args: None
-    return: True if message sent, False if error occures
+    return: True if message sent, False if error occurs
     '''
 
     #call SES boto client
