@@ -1,7 +1,7 @@
 '''
 boto3-ec2-report-generator-s3-ses-email.py: 
 
-This code generates an EC2 report with
+This code generates an EC2 report(ec2--report.csv) with
 Name Tag
 InstanceId
 ImageId
