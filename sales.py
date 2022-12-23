@@ -1,5 +1,8 @@
 ''' 
-sales.py: this code returns the total sum a client owes in a supermarcet in a receipt file
+sales.py: 
+
+This code returns the total sum a client owes in a supermarcet in a receipt file.
+Logs events is a boto3-ec2-report-generator-s3-ses-email.log file.
 
 Created By  : stepanova13
 '''
