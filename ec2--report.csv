@@ -1,0 +1,5 @@
+Instance Name,Instance ID,Image ID,Instance Type
+server1,i-0cdf2bc47959205b7,ami-0b5eea76982371e91,t2.micro
+server2,i-0ec6c142a367f5f97,ami-0b5eea76982371e91,t2.micro
+server3,i-0ceb6d505263332c7,ami-0b5eea76982371e91,t2.micro
+server4,i-028dd22d67183fa26,ami-0b5eea76982371e91,t2.micro

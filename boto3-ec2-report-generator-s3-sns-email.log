@@ -1,0 +1,3 @@
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:Report Python\ec2--report.csv uploaded to s3 bucket boto3-bucket-lh8afypibix1q8j7gfqsz9y61
+INFO:root:Message send successfully. Message id : 010001853c8f1aae-8be37863-48ab-404d-b4d2

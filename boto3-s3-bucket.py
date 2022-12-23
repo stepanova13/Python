@@ -7,6 +7,7 @@ import random
 import string
 import logging
 
+# set up the logger
 logging.basicConfig(filename='Python\\boto3-s3-bucket.log', filemode='w', level=logging.INFO)
 logger = logging.getLogger()
 
