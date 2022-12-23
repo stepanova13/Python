@@ -22,7 +22,7 @@ from email.mime.application import MIMEApplication
 
 
 # Setup logger
-logging.basicConfig(filename='Python\\boto3-ec2-report-generator-s3-sns-email.log', filemode='w', level=logging.INFO)
+logging.basicConfig(filename='Python\\boto3-ec2-report-generator-s3-ses-email.log', filemode='w', level=logging.INFO)
 logger = logging.getLogger()
 
 # Constants/ Global variables
