@@ -16,8 +16,8 @@ Logs events is a boto3-ec2-report-generator-s3-ses-email.log file.
 import boto3
 import logging
 import csv
-from botocore.exceptions import ClientError
 import os
+from botocore.exceptions import ClientError
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
