@@ -9,6 +9,8 @@ InstanceType.
 
 Puts the report in a S3 bucket, 
 and sends an email with the report attached.
+
+Logs events is a boto3-ec2-report-generator-s3-sns-email.log file.
 '''
 
 import boto3

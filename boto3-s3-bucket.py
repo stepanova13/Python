@@ -1,5 +1,9 @@
 '''
-boto3-s3-bucket.py: creates s3 bucket with unique name
+boto3-s3-bucket.py: 
+
+Creates s3 bucket with unique name.
+
+Loggs events is a boto3-ec2-report-generator-s3-sns-email.log file.
 '''
 
 import boto3
