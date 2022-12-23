@@ -46,7 +46,6 @@ def list_all_instances():
 
     # for reservation in response['Reservations']:
     #     for instance in reservation['Instances']:
-    #         print(instance['InstanceId'])
     for instance in response['Reservations'][0]['Instances']:
         # retrieving the data needed
         instance_name = instance['Tags'][0]['Value']
