@@ -19,7 +19,6 @@ order = {
         'garlic' : 7.5,
         'rice' : 10,
         'onions' : 4,
-        'fish' : 9.99,
         'radish' : 5.59
 }
 
