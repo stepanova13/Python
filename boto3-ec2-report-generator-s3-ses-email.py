@@ -3,9 +3,9 @@ boto3-ec2-report-generator-s3-ses-email.py:
 
 This code generates an EC2 report(ec2--report.csv) with
 Name Tag
-InstanceId
-ImageId
-InstanceType.
+Instance Id
+Image Id
+Instance Type.
 
 Puts the report in a S3 bucket, 
 and sends an email with the report attached.
